@@ -1,0 +1,87 @@
+/* body,header, and h1 along with contact info */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: rgb(177, 207, 218);
+    margin: 0;
+
+}
+
+
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.contact-info li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contact-info li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-info li a.highlighted-link {
+    color: #f6cc0a;
+    font-weight: bold;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    color: #333;
+    font-size: 20px;
+    margin: 10px 0;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+#objective p {
+    font-size: 18px;
+}
+
+#education ul {
+    margin-left: 20px;
+}
+
+#experience ul {
+    margin-left: 20px;
+}
+
+#awards ul {
+    margin-left: 20px;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.5;
+}
